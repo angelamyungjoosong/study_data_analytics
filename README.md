@@ -1,4 +1,9 @@
+
+[다변수 검증 방법](https://github.com/angelamyungjoosong/study_data_analytics/blob/main/codes/image/%EB%8B%A4%EB%B3%80%EC%88%98%20%EA%B2%80%EC%A6%9D.png)
+
+
 <details open>
+
 <summary>Titanic From Disaster</summary>
 
 #### DDA
