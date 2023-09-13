@@ -1,0 +1,14 @@
+use study_data_analytics
+
+db.mycollection.insertMany([
+    {"name": "Alice", "age": 25, "city": "Seoul"},
+    {"name": "Bob", "age": 30, "city": "Busan"},
+    {"name": "Charlie", "age": 35, "city": "Incheon"}
+])
+
+#update할때는 set이라는 내부명령어 사용 
+#내부명령어는 $ 사용
+#json형식(key,value) 사용  
+db.mycollection.updateOne({name:"Alice"},{$set:{age:26}});
+
+#컬럼을 하나 추가해야하는 경우, 원래 row 갯수만큼 옆에 붙이기 
