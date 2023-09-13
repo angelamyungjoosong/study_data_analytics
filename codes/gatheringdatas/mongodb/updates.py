@@ -13,4 +13,4 @@ documents = [
 collection.insert_many(documents)
 
 #하나만 update 
-collection.updateOne({"name":"Alice"}, {"$set":{"age":26}})
+collection.update_one({"name":"Alice"}, {"$set":{"age":26}})
